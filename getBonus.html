@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Get Bonus</title>
+
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+        <!-- Font Awesome CDN  -->
+        <script src="https://kit.fontawesome.com/83ad900154.js" crossorigin="anonymous"></script>
+        <!-- Google Font  -->
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+        <style>
+            body{
+                font-family: "Outfit", system-ui;
+            }
+        </style>
+    </head>
+    <body class="flex justify-center items-center text-gray-600">
+        <div class="w-1/4 bg-[#F4F5F7]  flex flex-col justify-start items-start mt-5 pb-5 ">
+            <div class="wrapper bg-white px-5 py-5 rounded-b-2xl">
+                <div class="home-container flex justify-between items-center  ">
+                    <div class="header flex items-center  ">
+                        <a href="index.html" class="icon w-12 mr-3 ">
+                            <img src="images/Group.png" alt="" class="w-full" >
+                        </a>
+                        <div class="amount">
+                            <h4 class="text-md font-bold" >$45000</h4>
+                            <p class="text-sm" >Available Balance</p>
+                        </div>
+                    </div>
+
+                    <div class="avatar">
+                        <div class="w-8 rounded-full ring ring-offset-1 cursor-pointer">
+                          <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="header mt-7 border-t-2 pt-5 ">
+                    <h2 class="text-xl font-bold mb-4 " >🔥 Welcome to Payooo!</h2>
+                    <p class="text-sm text-gray-400" >Enjoy easy and convenient financial services with us. Cashout charge is low and </p>
+                </div>
+    
+                <!-- Service Section  -->
+                <div class="services mt-10 grid grid-cols-3 gap-2 ">
+                    
+                    <a href="addMoney.html" class="item border-2  p-3 rounded-md flex flex-col justify-center cursor-pointer ">
+                        <img src="images/icon/wallet 1.png" alt="" class="w-6 mx-auto mb-2">
+                        <p class="text-xs text-center " >Add Money</p>
+                    </a>
+    
+                    <a href="cashOut.html" class="item border-2 p-3 rounded-md flex flex-col justify-center cursor-pointer">
+                        <img src="images/icon/send 1.png" alt="" class="w-6 mx-auto mb-2">
+                        <p class="text-xs text-center"  >Cash Out</p>
+                    </a>
+    
+                    <a href="transferMoney.html" class="item border-2  p-3 rounded-md flex flex-col justify-center cursor-pointer">
+                        <img src="images/icon/money 1.png" alt="" class="w-6 mx-auto mb-2">
+                        <p class="text-xs text-center " >Transfer Money</p>
+                    </a>
+    
+                    <a href="getBonus.html" class="item border-2  border-blue-600 p-3 rounded-md flex flex-col justify-center cursor-pointer">
+                        <img src="images/icon/financial 1.png" alt="" class="w-6 mx-auto mb-2">
+                        <p class="text-xs text-center  text-blue-600" >Get Bonus</p>
+                    </a>
+    
+                    <a href="payBill.html" class="item border-2 p-3 rounded-md flex flex-col justify-center cursor-pointer">
+                        <img src="images/icon/purse 1.png" alt="" class="w-6 mx-auto mb-2">
+                        <p class="text-xs text-center" >Pay Bill</p>
+                    </a>
+    
+                    <a href="transection.html" class="item border-2 p-3 rounded-md flex flex-col justify-center cursor-pointer">
+                        <img src="images/icon/transaction 1.png" alt="" class="w-6 mx-auto mb-2">
+                        <p class="text-xs text-center" >Transaction</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Add Money Section  -->
+            <div class="add-money-wrapper mt-5 p-4 ">
+                <h1 class="text-lg font-bold">Get Bonus</h1>
+                <form id="loginForm" class="flex flex-col items-start my-auto mt-3 px-3 py-5 bg-white mx-auto rounded-b-2xl" >
+
+
+                    <label for="password" class="mb-2">Enter Bonus Coupon</label>
+                    <input type="text" id="getBonus" name="getBonus" placeholder="Enter Your Coupon" required class="w-72 py-2 px-5 bg-[#F4F5F7] rounded-3xl outline-none mb-5">
+                    <button type="submit" class="w-72 bg-[#0874F2] text-white  py-3 px-5 rounded-3xl outline-none" >Get Bonus</button>
+                </form>
+            </div>
+
+            <!-- Footer  -->
+            <div class="footer text-center mt-3 ">
+                <p class="text-sm text-gray-400 ml-10 leading-3 inline-block" >All Reserved by-Payoo Designer <a href="https://github.com/rehan606" target="_blank" class="text-blue-600 ">Rehan</a></p>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
